@@ -1,0 +1,3 @@
+[submodule "dataset_interfaces"]
+	path = dataset_interfaces
+	url = git@github.com:MadryLab/dataset-interfaces.git
