@@ -4,12 +4,12 @@ import sys
 sys.path.append(os.path.join('dataset_interfaces'))
 import torch
 import matplotlib.pyplot as plt
-from dataset_interfaces.dataset_interface import utils
-from dataset_interfaces.dataset_interface import run_textual_inversion
-from dataset_interfaces.dataset_interface import generate
-from dataset_interfaces.dataset_interface import templates
-import dataset_interfaces.dataset_interface.imagenet_utils as in_utils
-import dataset_interfaces.dataset_interface.inference_utils as infer_utils
+from dataset_interfaces.dataset_interfaces import utils
+from dataset_interfaces.dataset_interfaces import run_textual_inversion
+from dataset_interfaces.dataset_interfaces import generate
+from dataset_interfaces.dataset_interfaces import templates
+import dataset_interfaces.dataset_interfaces.imagenet_utils as in_utils
+import dataset_interfaces.dataset_interfaces.inference_utils as infer_utils
 
 CLASS_TO_IDS = {
     'cat': [281, 282, 283, 284, 285, 286, 287], # cats x 7
